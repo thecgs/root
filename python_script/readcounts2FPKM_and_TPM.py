@@ -57,7 +57,7 @@ for sample_name in read_counts:
     TPM_matrix[sample_name] = TPM
 #print(TPM_matrix)
 
-exon_length.to_csv('exon_length.xls',sep='\t')
+#exon_length.to_csv('exon_length.xls',sep='\t')
 FPKM_matrix.to_csv('FPKM.xls',sep='\t')
 TPM_matrix.to_csv('TPM.xls',sep='\t')
 
